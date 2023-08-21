@@ -7,41 +7,44 @@ body {
 }
 
 
-
 header {
+
     text-align: center;
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 22px;
 }
 
+header img {
 
+    margin-bottom: 30px;
+}
 
 .container {
 
     display: flex;
     justify-content: center;
+    align-items: center;
+
     color: gray;
-
-    margin-top: 80px;
-    height: 250px;
-
-
-    gap: 40px;
-
     border: 2px solid transparent;
+
+    height: 300px;
+    gap: 50px;
 }
 
 
 
 li {
 
-    height: 100px;
+    height: 200px;
 }
 
 
 .container li img {
 
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
 
     border-radius: 10px;
 }
@@ -49,9 +52,11 @@ li {
 
 span {
 
-    text-align: center;
-    margin-top: 10px;
     display: block;
+    margin-top: 10px;
+
+    text-align: center;
+    font-size: 18px;
 }
 
 
@@ -60,22 +65,28 @@ li:hover {
     border: 2px solid white;
     border-radius: 12px;
 
-    height: 123px;
+    height: 184px;
 
     color: white;
-    margin: 0px;
 }
 
+
+div {
+
+    display: flex;
+    justify-content: center;
+}
 
 button {
 
     background-color: black;
     color: white;
-    border: 1px solid gray;
+    border: 2px solid gray;
 
+    margin-top: 100px;
     padding: 9px 30px;
-    margin-left: 650px;
-    font-size: 15px;
+
+    font-size: 16px;
     border-radius: 3px;
 
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
